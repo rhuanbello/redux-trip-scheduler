@@ -1,0 +1,70 @@
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+
+}
+
+.box li {
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  border-radius: 4px;
+  padding: 13px;
+
+}
+
+.box img {
+  max-width: 280px;
+  max-height: 220px;
+  border-radius: 4px;
+
+}
+
+.box strong {
+  font-size: 16px;
+  line-height: 20px;
+  color: #191919;
+  margin-top: 10px;
+
+}
+
+.box li > span {
+  margin-bottom: 20px;
+
+}
+
+.box button {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #191919;
+  border: 1px solid #000;
+  border-radius: 4px;
+  transition: .3s ease-in-out;
+
+}
+
+.box button div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.box button:hover {
+  background-color: #FFF;
+
+}
+
+.box button:hover span {
+  color: #000;
+}
+
+.box button:hover .icon {
+  fill: #000;
+
+}
